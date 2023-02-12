@@ -1,0 +1,174 @@
+*{
+    font-family: Century Gothic;
+}
+#navbar{
+    background-color: #9b9b9b42
+}
+#nav-name{
+    font-size: large;
+    margin-left: 20px;
+}
+#nav-name:hover{
+    color: black;
+    font-weight: bold;
+}
+#libname{
+    font-family: Century Gothic; letter-spacing: 2px; font-weight: bold; color: #0b2b66;
+}
+#libname:hover{
+    letter-spacing: 5px;
+    transition: 3s;
+}
+#libapp {
+    display: flex;
+    padding: 37px;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    background-color: #0b2b66;
+    width: 95%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#main-div{
+    width: 97%;
+    height: 600px;
+    background-color: #ede9e2;
+    color: black;
+    margin-top: -38px;
+    border-radius: 25px;
+    
+}
+#pa{
+    font-size: 28px;
+    padding-left: 1;
+    padding: 22px;
+}
+#addbook-icon {
+    font-size: 36px;
+    padding-left: 1;
+    padding: 16px;
+}
+#addbook {
+    width: 397px;
+    height: 87px;
+    background-color: #0b2b662e;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: right;
+    margin-right: -15px;
+    margin-top: -3%;
+}
+#addbookk{
+    width: 397px;
+    height: 87px;
+    background-color: #0b2b6600;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: right;
+    margin-top: -3%;
+    border: none;
+}
+
+#addbook:hover {
+    width: 397px;
+    height: 87px;
+    background-color: #0b2b66;
+    color: white;
+    border: slateblue;
+    float: right;
+    margin-right: -15px;
+    margin-top: -3%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+input{
+    background: none;
+    border: 3px solid;
+    border-top: none;
+    border-right: none;
+    border-color: #0b2b66;
+    height: 50px;
+}
+#inputEmail4{
+    background: none;
+    border: 3px solid;
+    border-top: none;
+    border-right: none;
+    border-color: #0b2b66;
+    height: 50px;
+    transition: .2s;
+    margin-bottom: 49px;
+
+}
+#inputPassword4{
+    background: none;
+    border: 3px solid;
+    border-bottom: none;
+    border-left: none;
+    border-color: #0b2b66;
+    height: 50px;
+}
+
+#inputEmail-login{
+    background: none;
+    border: 3px solid;
+    border-top: none;
+    border-right: none;
+    border-color: #0b2b66;
+    height: 50px;
+    transition: .2s;
+    margin-bottom: 49px;
+    margin-top: 212px;
+
+}
+#inputPassword-login{
+    background: none;
+    border: 3px solid;
+    border-bottom: none;
+    border-left: none;
+    border-color: #0b2b66;
+    height: 50px;
+    margin-bottom: 49px;
+    
+}
+@media (max-width:500px){
+    #inputEmail-login{
+        margin-top: 0px;
+    }
+}
+
+#formm{
+    margin-top: 100px;
+    margin-left: 117px;
+}
+@media (max-width:1000px){
+    #formm{
+        margin-left: 0px;
+    }
+
+    
+}
+@media (max-width:400px){
+    #formm{
+        margin-left: 0px;
+    }
+    #addbook{
+        margin-top: 20px;
+    }
+    
+}
+#sign-google{
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+}
+#add-btn{
+    width: inherit;
+    background: #00ffff00;
+    border: none;
+}
+#add-btn:hover{
+    color: white;
+}

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+    <a class="navbar-brand" href="#" id="libname" >Library</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link " id="nav-name"   href="/" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " id="nav-name" aria-current="page" href="/books">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-name"  href="/author">Author</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-name"  href="/addbook" >Add Book</a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/Register" id="nav-name" >Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login" id="nav-name"  style="font-weight: bold; color: black;"  >Login</a>
+            </li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container-fluid"  id="libapp" >
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="100" height="80" fill="currentColor" class="bi bi-journal-bookmark" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+      </svg><h1 style="    padding-top: 14px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      word-spacing: 8px;
+      font-size: 45px;">Library App</h1>
+    </p> 
+    
+
+</div>
+<div class="container" id="main-div" ><br>
+  <form id="formm" action="/login/loged"  method="get">
+      <div class="form-group col-md-5 bg-tritary"   >
+      <input type="text" name="username" class="form-control" id="inputEmail-login" placeholder="Username">
+      </div>
+      <div class="form-group col-md-5">
+      <input type="password" name="password" class="form-control" id="inputPassword-login" placeholder="Password">
+      </div>
+      
+        <!-- <div class="form-group col-md-5">
+        <div id="sign-google" >ewf</div>
+        </div> -->
+      
+    <!-- <div class="form-group">
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign in</button> -->
+    <button id="addbookk">
+    <div id="addbook">
+       <p id="addbook-icon"><i  id="add" class="bi bi-person-fill-add" ></i>Register</p>
+    
+    </div>
+    </button>
+  </form>
+ 
+    
+
+    <!-- <p id="pa"><i class="bi bi-person-lines-fill" style="color: #0b2b66;"></i> stephen jhons</p>
+    <p id="pa"><i class="bi bi-person-lines-fill" style="color: #4abc96;"></i> cristepher nolan</p>
+    <p id="pa"><i class="bi bi-person-lines-fill" style="color: #0b2b66;"></i> James patersone</p>
+    <p id="pa"><i class="bi bi-person-lines-fill" style="color: #4abc96;"></i> Lj rose</p>
+    <p id="pa"><i class="bi bi-person-lines-fill" style="color: #0b2b66;"></i> APJ abdulkalam</p> -->
+
+</div> 
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </body>
+</html>
